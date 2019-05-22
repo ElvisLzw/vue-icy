@@ -19,3 +19,6 @@ npm run build
 ```
 npm run lint
 ```
+
+
+icy初版npm包
