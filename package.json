@@ -2,12 +2,12 @@
   "name": "vue-icy",
   "version": "0.1.4",
   "private": false,
-  "main": "./dist/MyFirstComponent.umd.min.js",
+  "main": "./lib/vue-icy.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-lib": "vue-cli-service build --target lib --name MyFirstComponent ./src/components/index.js"
+    "build-lib": "vue-cli-service build --target lib --dest lib ./src/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
