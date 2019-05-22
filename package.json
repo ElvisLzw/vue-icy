@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "git+ssh://git@gitlab.ichuanyi.me:web/element.git#dev",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "sass": "^1.20.1",
+    "sass-loader": "^7.1.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
-    "vuex": "^3.0.1",
-    "element-ui": "git+ssh://git@gitlab.ichuanyi.me:web/element.git#dev"
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",

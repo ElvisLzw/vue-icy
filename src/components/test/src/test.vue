@@ -17,11 +17,20 @@
   }
 </script>
 
-<style scoped>
+<style scoped lang="less">
+  ul {
+    background-color: gray;
+    /* background-color: red; */
+    li {
+      color: red;
+    }
+  }
+</style>
+<style scoped lang="scss">
   ul {
     /* background-color: red; */
-  }
-  ul li {
-    list-style: decimal;
+    li {
+      color: red;
+    }
   }
 </style>
