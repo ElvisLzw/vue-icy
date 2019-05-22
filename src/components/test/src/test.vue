@@ -1,7 +1,7 @@
 
 <template>
   <ul>
-    <li>{{item}}</li>
+    <li>{{item}}<el-button>默认按钮</el-button></li>
   </ul>
 </template>
 
