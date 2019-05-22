@@ -1,8 +1,10 @@
 
 import Test from './components/test/index.js'
+import TableLayout from './components/tableLayout/index.js'
 
 const components = [
-  Test
+  Test,
+  TableLayout
 ]
 
 const install = function (Vue) {
@@ -19,4 +21,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
   install, // 此方法用来批量注册全局组件
   Test,
+  TableLayout
 }
